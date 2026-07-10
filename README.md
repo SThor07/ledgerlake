@@ -40,7 +40,7 @@ A medallion-architecture (Bronze / Silver / Gold) lakehouse on **Databricks** th
 
 ## Pipeline run — 10M events, end to end
 
-![Pipeline DAG with run metrics](images/pipeline_dag_metrics.png)
+![Pipeline DAG with run metrics](pipeline_dag_metrics.png)
 
 One triggered pipeline run ingested and processed the full dataset:
 
@@ -56,7 +56,7 @@ The ~2% quarantine rate exactly matches the malformed-record rate injected by th
 
 ## Fraud analytics dashboard
 
-![Fraud analytics dashboard](images/fraud_dashboard.png)
+![Fraud analytics dashboard](fraud_dashboard.png)
 
 Databricks AI/BI dashboard on the Gold layer: transaction/volume/fraud KPI counters, fraud volume by country, daily fraud rate, top-20 high-risk users, and a data-quality quarantine counter.
 
